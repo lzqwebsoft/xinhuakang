@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+
+.TabbedPanels {
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	clear: none;
+	width: 100%; /* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
+	height: 64px;
+	background-image: url(../images/zlyy2_03.jpg);
+}
+
+
+.TabbedPanelsTabGroup {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.TabbedPanelsTab {
+	position: relative;
+	float: left;
+	list-style: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	height: 32px;
+	width: 93px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+}
+
+
+.TabbedPanelsTabHover {
+}
+
+
+.TabbedPanelsTabSelected {
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-image: url(../images/g44r_03.jpg);
+}
+
+
+
+
+.TabbedPanelsTab a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 14px;
+	/*font-family:"Microsoft YaHei",??????;*/
+	display: block;
+	padding-top: 10px;
+	background-image: url(../images/zlyy2_07.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+
+.TabbedPanelsContentGroup {
+	clear: both;
+}
+
+
+.TabbedPanelsContent {
+	overflow: hidden;
+	padding: 3px;
+}
+
+
+.TabbedPanelsContentVisible {
+}
+
+
+
+.VTabbedPanels {
+	overflow: hidden;
+	zoom: 1;
+}
+
+
+.VTabbedPanels .TabbedPanelsTabGroup {
+	float: left;
+	width: 10em;
+	height: 20em;
+	background-color: #EEE;
+	position: relative;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+}
+
+
+.VTabbedPanels .TabbedPanelsTab {
+	float: none;
+	margin: 0px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+
+.VTabbedPanels .TabbedPanelsTabSelected {
+	background-color: #EEE;
+	border-bottom: solid 1px #999;
+}
+
+
+.VTabbedPanels .TabbedPanelsContentGroup {
+	clear: none;
+	float: left;
+	padding: 0px;
+	width: 30em;
+	height: 20em;
+}
+
+
+@media print {
+.TabbedPanels {
+	overflow: visible !important;
+}
+.TabbedPanelsContentGroup {
+	display: block !important;
+	overflow: visible !important;
+	height: auto !important;
+}
+.TabbedPanelsContent {
+	overflow: visible !important;
+	display: block !important;
+	clear:both !important;
+}
+.TabbedPanelsTab {
+	 overflow: visible !important;
+	 display: block !important;
+	 clear:both !important;
+}
+}
+#big #mm #TabbedPanels1 .TabbedPanelsTabGroup .TabbedPanelsTab.TabbedPanelsTabSelected a {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	display: block;
+	padding-top: 10px;
+}
+
+#big #lei .la2 #tab1 .menu2 ul {
+	list-style-type: none;
+}
+#big #lei .la2 #tab1 .menu2 ul #one1 {
+	display: block;
+	float: left;
+	width: 88px;
+	font-size: 14px;
+	text-align: center;
+	height: 22px;
+	padding-top: 3px;
+	font-weight: bold;
+}
+#big #lei .la2 #tab1 .menu2 ul #one2 {
+	display: block;
+	float: left;
+	width: 88px;
+	font-size: 14px;
+	text-align: center;
+	height: 22px;
+	padding-top: 3px;
+	font-weight: bold;
+}
+#big #lei .la2 #tab1 .menudiv #con_one_1 {
+
+}
